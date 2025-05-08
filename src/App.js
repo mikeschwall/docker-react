@@ -11,7 +11,7 @@ function App() {
     const fetchAI = async () => {
       try {
         const content = await getOpenAIResponse(
-          "Give me a JSON array of 5 action movies currently on Netflix. Respond only with the array."
+          "Give me a JSON array of 5 action movies currently on Netflix. Respond only with the array. and create a link to surround the title in order to preview each movie on netflix"
         );
         
         const parsed = JSON.parse(content); // Convert string to array
