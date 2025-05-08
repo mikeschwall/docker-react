@@ -5,7 +5,7 @@ const mockAxios = {
           choices: [
             {
               message: {
-                content: "Mocked movie list: ['Mad Max', 'Extraction', 'The Gray Man']"
+                content: "['Mad Max', 'Extraction', 'The Gray Man']",
               },
             },
           ],
