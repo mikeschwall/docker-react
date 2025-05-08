@@ -15,6 +15,7 @@ function App() {
         );
         
         const parsed = JSON.parse(content); // Convert string to array
+        console.log("parsed",parsed)
         setMessage(parsed);
       } catch (e) {
         console.error("Failed to parse AI response:", e);
