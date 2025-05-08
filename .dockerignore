@@ -1,2 +1,7 @@
 node_modules
-yarn.lock
+.dockerignore
+Dockerfile
+.git
+.gitignore
+*.log
+.env
